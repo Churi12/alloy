@@ -7,15 +7,15 @@ go 1.26.4
 replace github.com/grafana/alloy/syntax => ./syntax
 
 require (
-	cloud.google.com/go/pubsub/v2 v2.4.0
-	connectrpc.com/connect v1.19.1
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.21.1
+	cloud.google.com/go/pubsub/v2 v2.6.0
+	connectrpc.com/connect v1.20.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.22.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.13.1
 	github.com/Azure/go-autorest/autorest v0.11.30
 	github.com/DATA-DOG/go-sqlmock v1.5.2
-	github.com/DataDog/go-sqllexer v0.1.13
+	github.com/DataDog/go-sqllexer v0.2.2
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector v0.55.0
-	github.com/IBM/sarama v1.46.3
+	github.com/IBM/sarama v1.50.2
 	github.com/KimMachineGun/automemlimit v0.7.5
 	github.com/Lusitaniae/apache_exporter v0.11.1-0.20220518131644-f9522724dab4
 	github.com/Masterminds/goutils v1.1.1
@@ -23,15 +23,15 @@ require (
 	github.com/PuerkitoBio/rehttp v1.4.0
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/alecthomas/units v0.0.0-20240927000941-0f3dac36c52b
-	github.com/aws/aws-sdk-go-v2 v1.41.6
-	github.com/aws/aws-sdk-go-v2/config v1.32.16
-	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.22
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.100.0
-	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.39.23
+	github.com/aws/aws-sdk-go-v2 v1.42.0
+	github.com/aws/aws-sdk-go-v2/config v1.32.25
+	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.29
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.103.3
+	github.com/aws/aws-sdk-go-v2/service/servicediscovery v1.40.6
 	github.com/blang/semver/v4 v4.0.0
 	github.com/bmatcuk/doublestar/v4 v4.10.0
 	github.com/boynux/squid-exporter v1.10.5-0.20230618153315-c1fae094e18e
-	github.com/buger/jsonparser v1.1.2
+	github.com/buger/jsonparser v1.2.0
 	github.com/burningalchemist/sql_exporter v0.0.0-20260312184457-9bf25f71582f
 	github.com/c2h5oh/datasize v0.0.0-20231215233829-aa82cc1e6500
 	github.com/cespare/xxhash/v2 v2.3.0
@@ -43,7 +43,7 @@ require (
 	github.com/elastic/go-freelru v0.16.0
 	github.com/fatih/color v1.19.0
 	github.com/fortytw2/leaktest v1.3.0
-	github.com/fsnotify/fsnotify v1.9.0
+	github.com/fsnotify/fsnotify v1.10.1
 	github.com/github/smimesign v0.2.0
 	github.com/githubexporter/github-exporter v1.3.1
 	github.com/go-git/go-git/v5 v5.19.1
@@ -52,7 +52,7 @@ require (
 	github.com/go-logfmt/logfmt v0.6.1
 	github.com/go-logr/logr v1.4.3
 	github.com/go-sourcemap/sourcemap v2.1.4+incompatible
-	github.com/go-sql-driver/mysql v1.9.3
+	github.com/go-sql-driver/mysql v1.10.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v1.0.0
 	github.com/google/cadvisor v0.54.1
@@ -64,7 +64,7 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/grafana/alloy-remote-config v0.0.12
 	github.com/grafana/alloy/syntax v0.1.0 // x-release-please-version
-	github.com/grafana/beyla/v3 v3.9.8
+	github.com/grafana/beyla/v3 v3.22.2
 	github.com/grafana/catchpoint-prometheus-exporter v0.0.0-20260428133123-50478b16a666
 	github.com/grafana/ckit v0.0.0-20251024151910-87043f5a3cf7
 	github.com/grafana/cloudflare-go v0.0.0-20230110200409-c627cf6792f2
@@ -74,16 +74,16 @@ require (
 	github.com/grafana/jsonparser v0.0.0-20241004153430-023329977675
 	github.com/grafana/kafka_exporter v0.0.0-20240409084445-5e3488ad9f9a
 	github.com/grafana/loki/pkg/push v0.0.0-20251125172520-2f85998f1adf
-	github.com/grafana/loki/v3 v3.6.5
-	github.com/grafana/pyroscope-go/godeltaprof v0.1.9
+	github.com/grafana/loki/v3 v3.7.2
+	github.com/grafana/pyroscope-go/godeltaprof v0.1.11
 	github.com/grafana/pyroscope/api v1.3.2-0.20260414051146-5eb4b919ec16
 	github.com/grafana/pyroscope/lidia v0.0.2
 	github.com/grafana/regexp v0.0.0-20250905093917-f7b3be9d1853
 	github.com/grafana/snowflake-prometheus-exporter v0.0.0-20260428133429-b41d19e3211f
 	github.com/grafana/vmware_exporter v0.0.5-beta.0.20250218170317-73398ba08329
 	github.com/grafana/walqueue v0.0.0-20260122211421-92af63e5c3dd
-	github.com/hashicorp/consul/api v1.33.2
-	github.com/hashicorp/go-discover v1.1.0
+	github.com/hashicorp/consul/api v1.34.3
+	github.com/hashicorp/go-discover v1.3.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/hashicorp/golang-lru/v2 v2.0.7
@@ -97,14 +97,14 @@ require (
 	github.com/hashicorp/vault/api/auth/userpass v0.9.0
 	github.com/influxdata/influxdb-client-go/v2 v2.14.0
 	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c
-	github.com/influxdata/telegraf v1.35.2
+	github.com/influxdata/telegraf v1.39.0
 	github.com/jaegertracing/jaeger-idl v0.6.0
 	github.com/jaswdr/faker/v2 v2.9.1
 	github.com/jmespath-community/go-jmespath v1.1.1
 	github.com/jonboulle/clockwork v0.5.0
 	github.com/json-iterator/go v1.1.12
-	github.com/klauspost/compress v1.18.5
-	github.com/leodido/go-syslog/v4 v4.3.0
+	github.com/klauspost/compress v1.18.6
+	github.com/leodido/go-syslog/v4 v4.5.0
 	github.com/lib/pq v1.12.3
 	github.com/mackerelio/go-osstat v0.2.5
 	github.com/miekg/dns v1.1.72
@@ -114,7 +114,7 @@ require (
 	github.com/ncabatoff/process-exporter v0.8.7
 	github.com/oklog/run v1.2.0
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/oliver006/redis_exporter v1.81.0
+	github.com/oliver006/redis_exporter v1.86.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector v0.147.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector v0.147.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector v0.147.0
@@ -185,8 +185,8 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
 	github.com/prometheus-community/elasticsearch_exporter v1.5.0
-	github.com/prometheus-community/postgres_exporter v0.19.0
-	github.com/prometheus-community/stackdriver_exporter v0.18.0
+	github.com/prometheus-community/postgres_exporter v0.19.1
+	github.com/prometheus-community/stackdriver_exporter v0.19.0
 	github.com/prometheus-community/windows_exporter v0.31.3 // if you update the windows_exporter version, make sure to update the PROM_WIN_EXP_VERSION in _index
 	github.com/prometheus-community/yet-another-cloudwatch-exporter v0.64.0
 	github.com/prometheus-operator/prometheus-operator v0.86.1
@@ -200,17 +200,17 @@ require (
 	github.com/prometheus/common v0.67.6-0.20260415130754-a4fac5c9b6d9
 	github.com/prometheus/consul_exporter v0.8.0
 	github.com/prometheus/memcached_exporter v0.13.0
-	github.com/prometheus/mysqld_exporter v0.18.0
-	github.com/prometheus/node_exporter v1.10.2
+	github.com/prometheus/mysqld_exporter v0.19.0
+	github.com/prometheus/node_exporter v1.11.1
 	github.com/prometheus/procfs v0.20.1
 	github.com/prometheus/prometheus v0.309.2-0.20260113170727-c7bc56cf6c8f
 	github.com/prometheus/sigv4 v0.3.0
 	github.com/prometheus/snmp_exporter v0.29.0 // if you update the snmp_exporter version, make sure to update the SNMP_VERSION in _index
-	github.com/prometheus/statsd_exporter v0.28.0
+	github.com/prometheus/statsd_exporter v0.30.0
 	github.com/richardartoul/molecule v1.0.1-0.20240531184615-7ca0df43c0b3
-	github.com/rogpeppe/go-internal v1.14.1
+	github.com/rogpeppe/go-internal v1.15.0
 	github.com/rs/cors v1.11.1
-	github.com/samber/lo v1.52.0
+	github.com/samber/lo v1.53.0
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.36
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/sirupsen/logrus v1.9.4
@@ -287,19 +287,19 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.0
 	go.uber.org/multierr v1.11.0
-	go.uber.org/zap v1.27.1
-	golang.org/x/crypto v0.52.0
+	go.uber.org/zap v1.28.0
+	golang.org/x/crypto v0.53.0
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20240208163226-62c9f1799c91
 	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f
-	golang.org/x/net v0.55.0
+	golang.org/x/net v0.56.0
 	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.20.0
-	golang.org/x/sys v0.45.0
-	golang.org/x/text v0.37.0
+	golang.org/x/sync v0.21.0
+	golang.org/x/sys v0.46.0
+	golang.org/x/text v0.38.0
 	golang.org/x/time v0.15.0
-	golang.org/x/tools v0.44.0
+	golang.org/x/tools v0.46.0
 	google.golang.org/api v0.264.0
-	google.golang.org/grpc v1.80.0
+	google.golang.org/grpc v1.81.1
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -308,7 +308,7 @@ require (
 	k8s.io/apimachinery v0.35.3
 	k8s.io/client-go v0.35.3
 	k8s.io/component-base v0.35.0
-	k8s.io/klog/v2 v2.130.1
+	k8s.io/klog/v2 v2.140.0
 	k8s.io/utils v0.0.0-20260210185600-b8788abfbbc2
 	sigs.k8s.io/controller-runtime v0.23.3
 	sigs.k8s.io/yaml v1.6.0
@@ -986,8 +986,8 @@ require (
 )
 
 require (
-	github.com/99designs/gqlgen v0.17.89
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension v0.55.0
+	github.com/99designs/gqlgen v0.17.91
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension v0.57.0
 	github.com/charmbracelet/huh v1.0.0
 	github.com/moby/moby/api v1.54.2
 	github.com/moby/moby/client v0.4.1
@@ -995,8 +995,8 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/splunk v0.147.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nginxreceiver v0.147.0
 	github.com/spf13/viper v1.21.0
-	github.com/vektah/gqlparser/v2 v2.5.32
-	github.com/zricethezav/gitleaks/v8 v8.30.0
+	github.com/vektah/gqlparser/v2 v2.5.34
+	github.com/zricethezav/gitleaks/v8 v8.30.1
 )
 
 require (

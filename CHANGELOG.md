@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.18.0](https://github.com/grafana/alloy/compare/v1.17.0...v1.18.0) (2026-06-18)
+
+
+### Features 🌟
+
+* Add alloy.command to override the Alloy Helm container entrypoint ([#6509](https://github.com/grafana/alloy/issues/6509)) ([fea3056](https://github.com/grafana/alloy/commit/fea3056107bf6506ee5ab090c42c08a5e3796e5b))
+* **Helm Chart:** Make service.externalTrafficPolicy avaliable ([#4511](https://github.com/grafana/alloy/issues/4511)) ([a987e33](https://github.com/grafana/alloy/commit/a987e33af93f6756c32d776c37a6af4484b66183))
+* **metrics:** Add native histogram support for self-monitoring metrics ([#6385](https://github.com/grafana/alloy/issues/6385)) ([6045de1](https://github.com/grafana/alloy/commit/6045de1264724c23fa4e3d6423f109b7585088aa))
+* **prometheus.exporter.windows:** Add time collector to the Windows exporter ([#6517](https://github.com/grafana/alloy/issues/6517)) ([6289603](https://github.com/grafana/alloy/commit/62896033de73b65cb64227f2fcdb6e88d8d91d52))
+* **pyroscope.ebpf:** Add no_kernel_version_check argument ([#6475](https://github.com/grafana/alloy/issues/6475)) ([020d74c](https://github.com/grafana/alloy/commit/020d74cc572d55879cdf2500f92e0046dd463f09))
+* Upgrade to Beyla 3.22 ([#6452](https://github.com/grafana/alloy/issues/6452)) ([1cb72f6](https://github.com/grafana/alloy/commit/1cb72f65db6f4fdaea8c763cf3fe74abf246fe39))
+
+
+### Bug Fixes 🐛
+
+* Back off usage reporting on persistent failure instead of retrying every minute ([#6478](https://github.com/grafana/alloy/issues/6478)) ([0a1d139](https://github.com/grafana/alloy/commit/0a1d13919326e9321ece2d0694e5a0b42a691233))
+* Beyla glob parsing ([#6525](https://github.com/grafana/alloy/issues/6525)) ([beddf1b](https://github.com/grafana/alloy/commit/beddf1bbc99dfffa98df4d2d9b9017b94f2b45c9))
+* Bump moduledeps fixtures to go 1.26.4 ([#6521](https://github.com/grafana/alloy/issues/6521)) ([9d27acd](https://github.com/grafana/alloy/commit/9d27acd3141fc593b87cc99a3fc6411f0abd72c7))
+* Don't emit error log when remotecfg is unused ([#6483](https://github.com/grafana/alloy/issues/6483)) ([d0f30ea](https://github.com/grafana/alloy/commit/d0f30ea9befdd6e8cc948a47140391531f25fa7d))
+* **loki.process:** Prevent data race for metircs ([#6519](https://github.com/grafana/alloy/issues/6519)) ([2ae1848](https://github.com/grafana/alloy/commit/2ae18487d006f1ef2c2979d630b831ff1bd321cf))
+* Make go mod tidy resilient to transient module-proxy failures ([#6491](https://github.com/grafana/alloy/issues/6491)) ([23e04c9](https://github.com/grafana/alloy/commit/23e04c920b5c2fd4b2cba8c719f3f17d852b351a))
+* **security/web/ui:** Update web/ui vite to v7.3.5 [SECURITY] ([#6497](https://github.com/grafana/alloy/issues/6497)) ([d2bb8c0](https://github.com/grafana/alloy/commit/d2bb8c06a610fa2b7ddf64bc2589d380e6da2572))
+* **web/ui:** Bump esbuild to 0.28.1 ([#6522](https://github.com/grafana/alloy/issues/6522)) ([a2b3981](https://github.com/grafana/alloy/commit/a2b3981a3737c369ccce6abf53dd8b57768e88a5))
+
 ## [1.17.0](https://github.com/grafana/alloy/compare/v1.16.0...v1.17.0) (2026-06-11)
 
 
